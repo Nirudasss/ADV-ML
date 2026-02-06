@@ -35,7 +35,7 @@ async def start(_, message):
     buttons.url_button(
         lang.START_BUTTON1, "https://www.github.com/MadxBotz"
     )
-    buttons.url_button(lang.START_BUTTON2, "https://t.me/MadxBotz")
+    buttons.url_button(lang.START_BUTTON2, "https://t.me/PotterBotz")
     reply_markup = buttons.build_menu(2)
 
     if len(message.command) > 1 and message.command[1] == "wzmlx":
@@ -99,7 +99,7 @@ async def start(_, message):
     else:
         await send_message(
             message,
-            "<i>Bot can mirror/leech from links|tgfiles|torrents|nzb|rclone-cloud to any rclone cloud, Google Drive or to telegram.\n\n⚠️ You Are not authorized user! Deploy your own MadxBotz Customized Leech bot</i>",
+            "<i>Bot can mirror/leech from links|tgfiles|torrents|nzb|rclone-cloud to any rclone cloud, Google Drive or to telegram.\n\n⚠️ You Are not authorized user! Deploy your own PotterBotz Customized Leech bot</i>",
             reply_markup,
         )
     await database.set_pm_users(userid)

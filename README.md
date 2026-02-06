@@ -368,7 +368,7 @@ This bot is for educational purposes. Users are responsible for complying with c
 ## 📞 Support
 
 For support and updates:
-- Telegram: [@MadxBotz](https://t.me/MadxBotz)
+- Telegram: [@PotterBotz](https://t.me/PotterBotz)
 
 ## 🌟 Features Roadmap
 
